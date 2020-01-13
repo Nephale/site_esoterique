@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+     <title>Lorem Ipsum</title>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" type="text/css" href="css/style_accueil.css">
+
+   
+  </head>
+  
+  <body>
+
+
+<!-- Début NAVBAR -->
+<div class="barrenav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Produits
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Objets de décoration</a>
+          <a class="dropdown-item" href="#">Objets rares</a>
+          <a class="dropdown-item" href="#">Objets possédés</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Evaluation de vos objets</a>
+          <a class="dropdown-item" href="#">Soin</a>
+          <a class="dropdown-item" href="#">Magie Noire</a>
+        </div>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Livre d'or</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+
+
+      </li>
+      </li>
+     
+    </ul>
+   
+      <ul class="nav navbar-nav navbar-right">
+        
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Se connecter
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <input type="text" id="Login" class="form-control"name="Login" size="15" placeholder="Login">
+          <input type="password" class="form-control"id="MDP" name="MDP" size="15" placeholder="Mot de Passe">
+          <a href="#">Se connecter</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">S'inscrire</a>
+      </li>
+        
+      </ul>
+    
+  </div>
+</nav>
+</div>
+
+<!-- FIN NAVBAR--> 
+<br>
+<div class="row">
+  <div class="col-sm-3 col-md-3"></div>
+
+  
+  <div class="col-sm-6 col-md-6">
+<p>Paymetn form2</p>
+
+<article class="card">
+<div class="card-body p-5">
+
+<ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
+    <i class="fa fa-credit-card"></i> Credit Card</a></li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
+    <i class="fab fa-paypal"></i>  Paypal</a></li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
+    <i class="fa fa-university"></i>  Bank Transfer</a></li>
+</ul>
+
+<div class="tab-content">
+<div class="tab-pane fade show active" id="nav-tab-card">
+  <p class="alert alert-success">Some text success or error</p>
+  <form role="form">
+  <div class="form-group">
+    <label for="username">Full name (on the card)</label>
+    <input type="text" class="form-control" name="username" placeholder="" required="">
+  </div> <!-- form-group.// -->
+
+  <div class="form-group">
+    <label for="cardNumber">Card number</label>
+    <div class="input-group">
+      <input type="text" class="form-control" name="cardNumber" placeholder="">
+      <div class="input-group-append">
+        <span class="input-group-text text-muted">
+          <i class="fab fa-cc-visa"></i>   <i class="fab fa-cc-amex"></i>   
+          <i class="fab fa-cc-mastercard"></i> 
+        </span>
+      </div>
+    </div>
+  </div> <!-- form-group.// -->
+
+  <div class="row">
+      <div class="col-sm-8">
+          <div class="form-group">
+              <label><span class="hidden-xs">Expiration</span> </label>
+            <div class="input-group">
+              <input type="number" class="form-control" placeholder="MM" name="">
+                <input type="number" class="form-control" placeholder="YY" name="">
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4">
+          <div class="form-group">
+              <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+              <input type="number" class="form-control" required="">
+          </div> <!-- form-group.// -->
+      </div>
+  </div> <!-- row.// -->
+  <button class="subscribe btn btn-primary btn-block" type="button"> Confirm  </button>
+  </form>
+</div> <!-- tab-pane.// -->
+<div class="tab-pane fade" id="nav-tab-paypal">
+<p>Paypal is easiest way to pay online</p>
+<p>
+<button type="button" class="btn btn-primary"> <i class="fab fa-paypal"></i> Log in my Paypal </button>
+</p>
+<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. </p>
+</div>
+<div class="tab-pane fade" id="nav-tab-bank">
+<p>Bank accaunt details</p>
+<dl class="param">
+  <dt>BANK: </dt>
+  <dd> THE WORLD BANK</dd>
+</dl>
+<dl class="param">
+  <dt>Accaunt number: </dt>
+  <dd> 12345678912345</dd>
+</dl>
+<dl class="param">
+  <dt>IBAN: </dt>
+  <dd> 123456789</dd>
+</dl>
+<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. </p>
+</div> <!-- tab-pane.// -->
+</div> <!-- tab-content .// -->
+
+</div> <!-- card-body.// -->
+</article> <!-- card.// -->
+<div class="col-sm-3 col-md-3"></div>
+</div>
+
+
+
+
+<br>
+<br>
+<!-- DEBUT FOOTER -->
+
+
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Footer Content</h5>
+        <p>Suivez-nous sur les réseaux sociaux !</p>
+          <img id="logo" src="images/fb32.png">
+          <img id="logo" src="images/tw32.png">
+          <img id="logo" src="images/insta32.png">
+       
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase"></h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">A propos</a>
+          </li>
+      
+          <li>
+            <a href="#!">CGU</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase"></h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Mentions légales</a>
+          </li>
+          <li>
+            <a href="#!">Contacts</a>
+          </li>
+        
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© Copyright 2020 - La Ruche Numérique - CCI Le Mans Sarthe
+    <a href="#"> MDBootstrap.com</a>
+  </div>
+  
+
+</footer>
+
+
+
+<!-- FIN FOOTER -->
+
+
+
+
+
+
+</body>
+
+
+
+
+
+ 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</html>
